@@ -1,0 +1,584 @@
+body {
+    font-family: 'Inter';
+    background: #1f1f1f;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  /*.main-solid {
+    background-image: url(./images/mainbg.png);
+    height: 727px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }*/
+  
+  .logo {
+    width: 133px;
+    height: fit-content;
+    padding-left: 1390px;
+    padding-top: 0.5%;
+  
+  }
+  
+  .button-login{
+    font-family: 'Inter';
+    position: absolute;
+  width: 10%;
+  height: 66.67px;
+  left: 2%;
+  top: 3.5%;
+  background: #1F1F1F;
+  color: #1DC789;
+  border-radius: 76px;
+  font-size: 20px;
+  cursor: pointer;
+  
+  }
+  
+  .button-signup {
+    font-family: 'Inter';
+    box-sizing: border-box;
+  
+  position: absolute;
+  width: 10%;
+  height: 66.67px;
+  left: 14%;
+  top: 3.5%;
+  background: #1DC789;
+  fill-opacity: 1;
+  border: 2px solid #1F1F1F;
+  border-radius: 77px;
+  font-size: 20px;
+  cursor: pointer;
+  }
+  
+  .main-solid-one {
+    position: absolute;
+  width: 1101px;
+  height: 1081px;
+  left: -6px;
+  top: -1px;
+  
+  background: #1DC789;
+  }
+  
+  .main-solid-two{
+    position: absolute;
+  width: 1101px;
+  height: 1081px;
+  left: 119px;
+  top: -1px;
+  
+  /* aaaaaaa */
+  
+  background: linear-gradient(180deg, #1BC789 19.58%, rgba(30, 198, 137, 0) 100%);
+  }
+  .sidebar {
+    position: absolute;
+width: 3%;
+height: 93%;
+left: 0px;
+top: 200px;
+
+background: #3D635C;
+  }
+  
+  .topnav {
+    position: absolute;
+width: 100%;
+height: 7.11%;
+left: auto;
+top: auto;
+  background-color: #1F8E66;
+  }
+  
+  .header1 {
+    position: absolute;
+  width: 239.02px;
+  height: 20.7px;
+  left: 3.5%;
+  top: 3%;
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 600%;
+  line-height: 63px;
+  /* or 185% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  }
+  
+  .header2 {
+    position: absolute;
+  width: 239.02px;
+  height: 20.7px;
+  left: 8%;
+  top:3%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 600%;
+  line-height: 63px;
+  /* or 185% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  }
+  
+  .header1:hover,.header2:hover{
+    cursor: pointer;
+  }
+  
+  .about-header {
+    position: absolute;
+  /*width: 127px;
+  height: 49px;*/
+  top: 2.1%;
+  left: 88.7%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 300%;
+  line-height: 63px;
+  /* or 274% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  }
+  
+  .home-header {
+    position: absolute;
+    width: 98.02px;
+    height: 48.87px;
+    top: 2.4%;
+    left: 93%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 300%;
+    line-height: 63px;
+    /* or 274% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+  } 
+  .orders-header{
+    position: absolute;
+  width: 127px;
+  height: 49px;
+  left: 96%;
+  top: 2.4%;
+  margin-right: 0%;
+  padding-right: 0%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 300%;
+  line-height: 63px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  }
+  
+  .about-header:hover , .home-header:hover, .orders-header:hover{
+    cursor: pointer;
+  }
+  
+  .button-div-addF{
+    position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 250px;
+  top: 305px;
+  background: #1A9669;
+  border-radius: 62px;
+  }
+  
+  .button-div-checkActivity{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1150px;
+  top: 305px;
+  
+  background: #1A9669;
+  border-radius: 62px;
+  }
+  
+  .button-div-requestPickup{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 700px;
+  top: 150px;
+  
+  background: #1A9669;
+  border-radius: 62px;
+  }
+  
+  .adding-friends-image {
+    max-width: 95%;
+    max-height: 95%;
+    margin-left: 7px;
+    padding-top: 10PX;
+    cursor: pointer;
+    
+  }
+  
+  .request-pickup-image{
+    margin-top: 21px;
+    margin-left: 21px;
+    max-width: 87%;
+    max-height: 87%;
+    cursor: pointer;
+  
+  }
+  
+  
+  .activity-image{
+    max-width: 97%;
+    max-height: 97%;
+    padding-left: 3%;
+    padding-top: 3%;
+    cursor: pointer;    
+  }
+  
+  .button-div-checkActivity:hover , .button-div-addF:hover , .button-div-requestPickup:hover{
+    transform: scale(1.3);
+    transition: transform 0.2s;
+    
+  }
+  
+  
+  
+  .button-text {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 24.9%;
+    color: white;
+    font-size: 21px;
+  
+  }
+  
+  .button-text-two {
+    position: relative;
+    
+    margin-left: 5.5%;
+    margin-top: 20%;
+    color: white;
+    font-size: 21px;
+    
+  }
+  
+  .button-text-three {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 30%;
+    color: white;
+    font-size: 21px;
+    margin-top: 18%;
+    
+  }
+  
+  .left-main-box {
+    position: absolute;
+  width: 485px;
+  height: 102px;
+  left: 63px;
+  top: 47%;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .right-main-box{
+    font-family: Inter;
+    font-size: 25px;
+    color: white;
+    font-weight: 200px;
+    left: 1000px;
+  }
+  
+  .hostelbuddy-intro-header-1{
+    position: absolute;
+    top: 3.5%;
+    right: 18%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 63px;
+    /* or 185% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    
+     
+  }
+  .hostelbuddy-intro-header-2{
+    position: absolute;
+    top: 3.5%;
+    right: 10%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 63px;
+  /* or 185% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  }
+  
+  .box-1{
+    position: absolute;
+    width: 723px;
+    height: 118px;
+    right: 3%;
+    top: 28%;
+    
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  align-items: right;
+  text-align: right;
+  
+  color: #FFFFFF;
+  }
+  .box-2{
+    position: absolute;
+  width: 772px;
+  height: 118px;
+  right:3%;
+  top: 42%;
+    
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  align-items: right;
+  text-align: right;
+  
+  color: #FFFFFF;
+  
+  }
+  .box-3{
+    position: absolute;
+  width: 631px;
+  height: 118px;
+  right: 3%;
+  top: 55%;
+  
+    
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  align-items: right;
+  text-align: right;
+  
+  color: #FFFFFF;
+  
+  }
+  .box-4{
+    position: absolute;
+    width: 296px;
+    height: 118px;
+    right: 3%;
+    top: 68%;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    align-items: right;
+    text-align: right;
+      
+    color: #FFFFFF;
+  }
+  
+  .signup-bg-box{
+    position: absolute;
+  width: 35%;
+  height: 85%;
+  left: 32.5%;
+  top: 11%;
+  
+  background: #20835E;
+  opacity: 0.8;
+  border-radius: 49px;
+  }
+  
+  .signup-header{
+    position: relative;
+  
+    left: 41%;
+    color: #FFFFFF;
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 63px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  }
+  
+  .order-details-header{
+    position: relative;
+  
+    left: 33%;
+    color: #FFFFFF;
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 63px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  }
+  
+  .input-box-1{
+    position: relative;
+  
+    margin: 3% 35%;
+    color: transparent !important;
+  
+    font-size: 33px;
+  }
+  .input-box-3{
+    position: relative;
+  
+    margin: 5% 35%;
+    color: transparent !important;
+  
+    font-size: 33px;
+  }
+  
+  
+  .submit-button-signup{
+  
+    width: 100px;
+    height: 35px;
+    border-radius: 13px;
+    background-color: #20835e;
+    margin-left: 41.5%;
+    margin-top: 5%;
+    border: 3.5px;
+    font-size: large;
+    border: 2px solid white;
+    color: white;
+    
+  }
+  
+  .submit-button-signup:hover{
+    background-color: #1DC789;
+    cursor: pointer;
+  }
+  
+  #hostel-buddy-template-header{
+    cursor: pointer;
+  }
+  
+  #hostel-block{
+    background: transparent;
+    border-radius: 3px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #FFFFFF;
+    width: 100%;
+    font-size: 26px;
+    color: white;
+  }
+  
+  #prdctname,#payment,#location,#contact,#email{
+    background: transparent;
+    border-radius: 3px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #FFFFFF;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+  }
+  
+  #name, #username, #regno, #email-id, #phone-number, #password{
+    background: transparent;
+    border-radius: 3px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #FFFFFF;
+    width: 100%;
+    font-size: 27px;
+    color: #FFFFFF;
+    
+  }
+  
+  ::placeholder{
+    color: white;
+    text-align: center;
+    opacity: 1;
+  }
