@@ -58,7 +58,6 @@ color: #FFF;
 .right-main-box{
   display:flex;
   justify-content:flex-end;
-  /*justify-content:space-between;*/
   font-family: 'Inter';
   font-style: normal;
   font-weight: 0;
