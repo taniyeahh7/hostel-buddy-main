@@ -8,8 +8,6 @@ export default function AddFriend() {
     
     const f = async(e)=>{
         await fetch('http://localhost:3001/addfriend')
-        
-        
     }
 
     return (
