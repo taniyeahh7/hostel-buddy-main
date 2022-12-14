@@ -16,18 +16,22 @@ export default function Landing() {
                 <p className="button-text">Add Friends</p>
             </div>
             </Link>
-            <Link to="/addorder">
-            <div className="button-div-requestPickup">
-                <img src={delivery} className="request-pickup-image"/>             
-                <p className="button-text-two">Request Order Pickup</p>
+            
+            <div className="to-align-two">
+                <Link to="/addorder">
+                <div className="button-div-requestPickup">
+                    <img src={delivery} className="request-pickup-image"/>             
+                    <p className="button-text-two">Request Order Pickup</p>
+                </div>
+                </Link>
+                <Link to="/profile">
+                <div className="button-div-checkActivity">
+                    <img src={myactivity} className="activity-image"/>           
+                    <p className="button-text-three">My Activity</p>
+                </div>
+                </Link>
             </div>
-            </Link>
-            <Link to="/profile">
-            <div className="button-div-checkActivity">
-                <img src={myactivity} className="activity-image"/>           
-                <p className="button-text-three">My Activity</p>
-            </div>
-            </Link>
+            
         </>
     )
 }

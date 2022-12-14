@@ -8,14 +8,16 @@ export default function LoginForm(){
     return (
             <>
             <Template/>
-            <div className="input-box-1">
-                <input placeholder="Username" type="text" className="input-box-1" name="username" id="username"/>
-            </div>
-            <div className="input-box-1">
-                <input placeholder="Password" type="text" className="input-box-1" name="password" id="password"/>
-            </div>
-            <button type="button" className="submit-button-signup" id="submit">Submit</button>
-           
+            <div className="login-fields">
+                <div>
+                    <input placeholder="Username" type="text" name="username" id="username"/>
+                </div>
+                <div>
+                    <input placeholder="Password" type="text" name="password" id="password"/>
+                </div>
+                </div>
+                <button type="button" className="submit-button-signup" id="submit">Submit</button>
+            
             </>
     )
 }

@@ -1,671 +1,184 @@
-body {
-  font-family: 'Inter';
-  background: #1f1f1f;
-  /*left: auto;
-  top: auto;
-  bottom: auto;
-  right: auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 0%;
-  margin-right: 0%;*/
+body{
+  background: #242424;
 }
 
-.main-solid {
-  background-image: url(./images/mainbg.png);
-  height: 180rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0%;
-  padding: 0%;
-}
-
-.logo {
-  width: 25rem;
-  height: fit-content;
-  padding-left: 91%;
-  padding-top: 0.5%;
-
-}
-
-.button-login{
-  font-family: 'Inter';
-  position: absolute;
-width: 20rem;
-height: 20rem;
-left: 2%;
-top: 3.5%;
-display:flex;
-background: #1F1F1F;
-color: #1DC789;
-border-radius: 76px;
-font-size: 20px;
-cursor: pointer;
-}
-
-.button-signup {
-  font-family: 'Inter';
-  box-sizing: border-box;
-
-position: absolute;
-width: 10%;
-height: 10%;
-left: 14%;
-top: 3.5%;
-background: #1DC789;
-fill-opacity: 1;
-border: 2px solid #1F1F1F;
-border-radius: 77px;
-font-size: 20px;
-cursor: pointer;
-}
-
-.sidebar {
-  position: absolute;
-width: 3.4%;
-height: 100%;
-padding: 0%;
-left: 0px;
-top: 0%;
-
-background: #333;
-}
-
-.topnav {
-  padding: 0%;
-  position: absolute;
-  display: grid;
-  width: 100%;
-  height: 7%;
-  left: 0px;
-  top: 0px;
-  background: #1F8E66;
-}
-
-.header1 {
-  position: absolute;
-width: 23%;
-height: 33%;
-left: 1.9%;
-top: 0px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 185%;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
-}
-
-.header2 {
-  position: absolute;
-width: 23%;
-height: 33%;
-left: 7.1%;
-top: 0px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 100;
-font-size: 24px;
-line-height: 185%;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
-}
-
-.header1:hover,.header2:hover{
-  cursor: pointer;
-}
-
-.about-header {
-  position: absolute;
-width: 127px;
-height: 49px;
-top: 3px;
-right: 90px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 63px;
-/* or 274% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
-}
-
-.home-header {
-  position: absolute;
-  width: 98.02px;
-  height: 48.87px;
-  top: 3px;
-  right: 185px;
-  
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 63px;
-  /* or 274% */
-  
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.02em;
-  
-  color: #FFFFFF;
-} 
-.orders-header{
-  position: absolute;
-width: 127px;
-height: 49px;
-right: 0px;
-top: 3px;
-margin-right: 0%;
-padding-right: 0%;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 63px;
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
-}
-
-.about-header:hover , .home-header:hover, .orders-header:hover{
-  cursor: pointer;
-}
-
-.button-div-addF{
-  position: absolute;
-width: 250px;
-height: 250px;
-left: 250px;
-top: 305px;
-background: #1A9669;
-border-radius: 62px;
-}
-
-.button-div-checkActivity{
-  position: absolute;
-  width: 250px;
-  height: 250px;
-  left: 1150px;
-top: 305px;
-
-background: #1A9669;
-border-radius: 62px;
-}
-
-.button-div-requestPickup{
-  position: absolute;
-  width: 250px;
-  height: 250px;
-  left: 700px;
-top: 150px;
-
-background: #1A9669;
-border-radius: 62px;
-}
-
-.adding-friends-image {
-  max-width: 95%;
-  max-height: 95%;
-  margin-left: 7px;
-  padding-top: 10PX;
-  cursor: pointer;
-  
-}
-
-.request-pickup-image{
-  margin-top: 21px;
-  margin-left: 21px;
-  max-width: 87%;
-  max-height: 87%;
-  cursor: pointer;
-
-}
-
-
-.activity-image{
-  max-width: 97%;
-  max-height: 97%;
-  padding-left: 3%;
-  padding-top: 3%;
-  cursor: pointer;    
-}
-
-.button-div-checkActivity:hover , .button-div-addF:hover , .button-div-requestPickup:hover{
-  transform: scale(1.3);
-  transition: transform 0.2s;
-  
-}
-
-
-
-.button-text {
-  position: relative;
-  margin-top: 5%;
-  margin-left: 24.9%;
-  color: white;
-  font-size: 21px;
-
-}
-
-.button-text-two {
-  position: relative;
-  
-  margin-left: 5.5%;
-  margin-top: 20%;
-  color: white;
-  font-size: 21px;
-  
-}
-
-.button-text-three {
-  position: relative;
-  margin-top: 8%;
-  margin-left: 30%;
-  color: white;
-  font-size: 21px;
-  margin-top: 18%;
-  
-}
-
-.left-main-box {
-  /*position: absolute;
-width: 485px;
-height: 102px;
-left: 63px;
-top: 47%;*/
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-/*font-size: 40px;
-line-height: 49px;*/
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.right-main-box{
-  font-family: Inter;
-  /*font-size: 25px;*/
-  color: white;
-  font-weight: 100;
-  left: 1000px;
-}
 .to-align-logo{
   display:flex;
+  justify-content: flex-end;
 }
+
 .hostelbuddy-intro-header-1{
-  position: absolute;
-  top: 12.5rem;
-  right: 58.5rem;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  display:flex;
+  justify-content:flex-end;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 8rem;
   line-height: 63px;
-  /* or 185% */
-  
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.02em;
   
-  color: #FFFFFF;
-  
+  color: #FFF;
    
 }
+
 .hostelbuddy-intro-header-2{
-  position: absolute;
-  top: 12.5rem;
-  right: 34rem;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  display:flex;
+  justify-content:flex-end;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
   font-size: 8rem;
-  line-height: 63px;
-/* or 185% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
+color: #FFF;
 }
 
-.box-1{
-  position: absolute;
-  width: 723px;
-  height: 118px;
-  right: 3%;
-  top: 28%;
+.logo{
+  display:flex;
+  justify-content:flex-end;
+  width:25rem;
+}
+
+.left-main-box{
+  display:flex;
+  justify-content:flex-start;
   
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 21px;
-line-height: 30px;
-align-items: right;
-text-align: right;
-
-color: #FFFFFF;
-}
-.box-2{
-  position: absolute;
-width: 772px;
-height: 118px;
-right:3%;
-top: 42%;
-  
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 21px;
-line-height: 30px;
-align-items: right;
-text-align: right;
-
-color: #FFFFFF;
-
-}
-.box-3{
-  position: absolute;
-width: 631px;
-height: 118px;
-right: 3%;
-top: 55%;
-
-  
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 21px;
-line-height: 30px;
-align-items: right;
-text-align: right;
-
-color: #FFFFFF;
-
-}
-.box-4{
-  position: absolute;
-  width: 296px;
-  height: 118px;
-  right: 3%;
-  top: 68%;
-  
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 30px;
-  align-items: right;
-  text-align: right;
-    
-  color: #FFFFFF;
-}
-
-.signup-bg-box{
-  position: absolute;
-width: 35%;
-height: 85%;
-left: 32.5%;
-top: 11%;
-
-background: #20835E;
-opacity: 0.8;
-border-radius: 49px;
-}
-
-.signup-header{
-  position: relative;
-
-  left: 41%;
-  color: #FFFFFF;
-  
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 63px;
-margin-bottom: 0px;
-padding-bottom: 0px;
-}
-
-.order-details-header{
-  position: relative;
-
-  left: 33%;
-  color: #FFFFFF;
-  
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 63px;
-margin-bottom: 0px;
-padding-bottom: 0px;
-}
-
-.input-box-1{
-  position: relative;
-
-  margin: 3% 35%;
-  color: transparent !important;
-
-  font-size: 33px;
-}
-.input-box-3{
-  position: relative;
-
-  margin: 5% 35%;
-  color: transparent !important;
-
-  font-size: 33px;
-}
-
-
-.submit-button-signup{
-
-  /*width: 100px;
-  height: 35px;
-  border-radius: 13px;*/
-  background-color: #20835e;
-  margin-left: 41.5%;
-  margin-top: 5%;
-  border: 3.5px;
-  font-size: large;
-  border: 2px solid white;
-  color: white;
-  
-}
-
-.submit-button-signup:hover{
-  background-color: #1DC789;
-  cursor: pointer;
-}
-
-#hostel-buddy-template-header{
-  cursor: pointer;
-}
-
-#hostel-block{
-  background: transparent;
-  border-radius: 3px;
-  border-top: 1px;
-  border-left: 1px;
-  border-right: 1px;
-  border-color: #FFFFFF;
-  width: 100%;
-  font-size: 20px;
-  color: white;
-}
-
-#prdctname,#location,#contact,#email,#payment{
-  background: transparent;
-  border-radius: 3px;
-  border-top: 1px;
-  border-left: 1px;
-  border-right: 1px;
-  border-color: #FFFFFF;
-  width: 100%;
-  font-size: 20px;
-  color: white;
-
-}
-
-#input-box-3{
-  position: relative;
-  display: inline-block;
-}
-
-
-#name, #username, #regno, #email-id, #phone-number, #password{
-  background: transparent;
-  border-radius: 3px;
-  border-top: 1px;
-  border-left: 1px;
-  border-right: 1px;
-  border-color: #FFFFFF;
-  width: 100%;
-  font-size: 27px;
-  color: #FFFFFF;
-  
-}
-
-#search-friends{
-  position: absolute;
-width: 35%;
-height: 6%;
-left: 35%;
-top:18%;
-border: 0px;
-  background-color: #d9d9d9;
-  border-radius: 5%;
-}
-
-#search-friends::placeholder{
-  color: #000000;
-  opacity: 0.7;
   font-family: 'Inter';
-  text-align: left;
-  padding-left: 7%;
-  padding-bottom: 0%;
-  margin-bottom: 0%;
-
-  font-size: 155%;
-  padding-top: 11%;
-  vertical-align: bottom;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 5.5rem;
+  color:#FFF;
+  flex-direction:column;
+  align-items: flex-start;
+  gap:5rem;
+  /*margin:2.5rem;
+  padding:6rem;*/
 }
 
-#search-logo{
-  position: absolute;
-  top: 100px;
-  color: #FFFFFF;
-  left: 500px;
-  fill: #FFFFFF;
+.right-main-box{
+  display:flex;
+  justify-content:flex-end;
+  /*justify-content:space-between;*/
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 0;
+  font-size: 4rem;
+  color:#FFF;
+  flex-direction:column;
+  align-items:flex-end;
+  /*margin:2.5rem;
+  padding:6rem;*/
 }
 
-#requests-header{
-  padding-left: 15%;
-  padding-top: 14%;
-  color: #FFFFFF;
-  font-size: 100%;
-
+.butts{
+  display:flex;
+  justify-content: start;
+  flex-flow:row;
 }
 
-.flexbox-requestbox{
-  display: flex;
-  padding-right: 5%;
+.all-header>a{
+  /*display:flex;*/
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  color:#FFF;
+  gap:10rem;
 }
 
-.request-box{
-  display: flexbox;
-  position: inherit;
-  justify-content: center;
-  margin-left: 15%;
-  margin-right: 0px;
-  font-size: 185%;
-  padding-left: 3%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  background: #555555;
-  border-radius: 16px;  
-  width: 35%;
-  height: 40%;
-  margin-bottom: 4.5%;
-  color: #FFFFFF;
+/*.adding-friends-image{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  margin:10rem;
 }
 
-.accept-friend-button{
-  display:inline-flex;
-  vertical-align: middle;
-  margin: 0px 0px 0px 0px;
-  padding: 0% 0px 0px 0px;
-
-
+.request-pickup-image{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  margin:10rem;
 }
 
-.accept-friend-button-2{
-
-  display: flex;
-  justify-content: center;
-  padding-top: 9%;
-  border: 0px;
-padding-right: 5%;
-  border-radius: 90%;
-  background-color: #555555;
-  margin-left: 55%;
-  color: #FFFFFF;
-  font-size: 255%;
-  height: min-content;
-  
-  border: 1px solid transparent;
+.activity-image{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  margin:10rem;
 }
 
-.accept-friend-button-2:hover{
-  background-color: #1f1f1f;
-  border: 1px solid #d9d9d9;
+.button-text{
+  display:flex;
+  justify-content:center;
+  font-size:large;
+  color:#fff;
+}*/
+
+.button-div-addF{
+  display:flex;
+  justify-content:center;
 }
 
-::placeholder{
-  color: white;
-  text-align: center;
-  opacity: 1;
+.button-div-requestPickup{
+  display:flex;
+  justify-content:flex-start;
 }
 
-input:focus,select:focus,textarea:focus{
-  outline: none;
+.button-div-checkActivity{
+  display:flex;
+  justify-content:flex-end;
+}
 
+.to-align-two{
+  display:flex;
+  justify-content: space-between;
+}
+
+.login-fields{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+
+.button-login{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  height:12rem;
+  align-items:center;
+  justify-content:column;}
+
+.button-signup{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  height:12rem;
+  align-items:center;
+  justify-content:column;
+}
+
+.signup-butt-text{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  height:12rem;
+  align-items:center;
+}
+
+.login-butt-text{
+  display:flex;
+  justify-content:center;
+  width:25rem;
+  height:12rem;
+  align-items:center;
+}
+
+.butts{
+  display:flex;
+  justify-content:column;
+  align-self:flex-end;
+  column-gap:10rem;
+  row-gap:10rem;
+  row-gap:10rem;
 }
