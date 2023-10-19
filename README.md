@@ -1,3 +1,3 @@
 # hostel-buddy-main
 
-a
+front end for hostel buddy project draft iteration one.
